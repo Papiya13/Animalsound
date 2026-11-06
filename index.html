@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Sound Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>🐾 Animal Sound Website 🐾</h1>
+
+    <h2 id="message">Click an animal button</h2>
+
+    <div class="container">
+
+        <div class="animal">
+            <img src="LION.jpg" alt="Lion">
+            <button onclick="playAnimal('lion')">Lion 🦁</button>
+        </div>
+
+<div class="animal">
+            <img src="elephant.jpg" alt="Elephant">
+            <button onclick="playAnimal('elephant')">Elephant 🐘</button>
+        </div>
+
+        <div class="animal">
+            <img src="monkey.jpeg" alt="Monkey">
+            <button onclick="playAnimal('monkey')">Monkey 🐒</button>
+        </div>
+
+        <div class="animal">
+            <img src="dog.jpeg" alt="Dog">
+            <button onclick="playAnimal('dog')">Dog 🐶</button>
+        </div>
+
+    </div>
+
+    <audio id="lion" src="sounds/lion.mp3"></audio>
+    <audio id="elephant" src="sounds/elephant.mp3"></audio>
+<audio id="monkey" src="sounds/monkey.mp3"></audio>
+    <audio id="dog" src="sounds/dog.mp3"></audio>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
